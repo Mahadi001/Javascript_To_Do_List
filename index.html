@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>To Do List</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>To Do List App:</h1>
+      <div>
+        <input
+          type="text"
+          name="addText"
+          id="addText"
+          placeholder="Add new task..."
+        />
+        <button class="btn" id="addButton" onclick="newElement()">
+          <i class="fas fa-plus-circle"></i>
+        </button>
+      </div>
+      <p id="demo"></p>
+    </div>
+
+    <div>
+      <ul id="myUL" class="ulStyle">
+        <li>Coding</li>
+        <li>Eat</li>
+        <li>Sleep</li>
+      </ul>
+    </div>
+
+    <script src="/js/script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/33ce6f3185.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
